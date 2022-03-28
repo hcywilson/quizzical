@@ -15,7 +15,7 @@
   align-items: center;
 }
 
-.start-page, .game-page {
+.start-page{
   display: flex;
   flex-direction: column;
   min-height: 15rem;
@@ -58,6 +58,10 @@
 
 .game-page {
   min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .question--choice {
