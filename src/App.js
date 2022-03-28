@@ -7,8 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="yellow-circle"></div>
-      <div className="purple-circle"></div>
+
       {gameStage === "start" ?
         (<StartPage
           startGame={() => setGameStage("play")}
@@ -18,6 +17,8 @@ function App() {
           endGame={() => setGameStage("end")}
           startGame={() => setGameStage("play")}
         />)}
+      <div className="yellow-circle"></div>
+      <div className="purple-circle"></div>
     </div>
   );
 }

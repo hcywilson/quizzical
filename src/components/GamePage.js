@@ -12,7 +12,7 @@ export default function GamePage(props) {
     }
 
     async function getNewData() {
-        const data = await fetch("https://opentdb.com/api.php?amount=5&type=multiple")
+        const data = await fetch("https://opentdb.com/api.php?amount=10&type=multiple")
 
         const dataJson = await data.json()
 

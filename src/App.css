@@ -6,6 +6,29 @@
   font-family: 'Karla', sans-serif;
 }
 
+.yellow-circle, .purple-circle {
+  height: 25vh;
+  width: 50vw;
+  transform: rotate(-128.49deg);
+  border-radius: 50%;
+  position: fixed;
+  z-index: -1;
+
+}
+
+.yellow-circle {
+  background-color: #FFFAD1;
+  top: -15vh;
+  right: -15vw;
+}
+
+.purple-circle {
+  background-color: #DEEBF8;
+
+  bottom: -15vh;
+  left: -15vw;
+}
+
 .App {
   min-height: 100vh;
   min-width: 100vw;
@@ -15,7 +38,7 @@
   align-items: center;
 }
 
-.start-page{
+.start-page {
   display: flex;
   flex-direction: column;
   min-height: 15rem;
@@ -70,7 +93,7 @@
   font-weight: 500;
   font-size: 0.5rem;
   line-height: 1rem;
-  text-align: justify;
+  text-align: center;
   color: #293264;
   min-width: 2rem;
   min-height: 1rem;
