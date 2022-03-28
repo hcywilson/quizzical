@@ -56,6 +56,10 @@
   font-weight: 500;
 }
 
+.game-page {
+  min-height: 80vh;
+}
+
 .question--choice {
   border: 0.8px solid #4D5B9E;
   border-radius: 8px;
