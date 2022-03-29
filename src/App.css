@@ -1,37 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
 }
 
-.yellow-circle, .purple-circle {
-  height: 25vh;
+.yellow-circle,
+.purple-circle {
+  height: 50vh;
   width: 50vw;
   transform: rotate(-128.49deg);
   border-radius: 50%;
   position: fixed;
   z-index: -1;
-
 }
 
 .yellow-circle {
-  background-color: #FFFAD1;
-  top: -15vh;
-  right: -15vw;
+  background-color: #fffad1;
+  top: -14rem;
+  right: -12rem;
 }
 
 .purple-circle {
-  background-color: #DEEBF8;
-
-  bottom: -15vh;
-  left: -15vw;
+  background-color: #deebf8;
+  bottom: -14rem;
+  left: -12rem;
 }
 
 .App {
   min-height: 100vh;
-  min-width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,8 +61,8 @@
   height: 3rem;
   font-weight: 500;
   font-size: 16px;
-  color: #F5F7FB;
-  background: #4D5B9E;
+  color: #f5f7fb;
+  background: #4d5b9e;
   border-radius: 15px;
   cursor: pointer;
   border: none;
@@ -80,41 +78,38 @@
 }
 
 .game-page {
-  min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin: 2rem;
 }
 
 .question--choice {
-  border: 0.8px solid #4D5B9E;
-  border-radius: 8px;
+  border: 0.8px solid #4d5b9e;
+  border-radius: 0.5rem;
   font-weight: 500;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   line-height: 1rem;
   text-align: center;
   color: #293264;
-  min-width: 2rem;
-  min-height: 1rem;
-  margin: 0 0.2rem;
-  overflow: hidden;
+  padding: 0 1em;
+  margin-right: 1rem;
 }
 
 .question {
-  width: 80vw;
+  width: 100%;
   flex-direction: column;
   font-weight: 700;
-  margin: auto 0;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #F5F7FB;
+  padding: 0.4em 0 1em;
+  border-bottom: 1px solid #f5f7fb;
 }
 
 .question--question {
   text-align: justify;
   color: #293264;
-  margin: 10px 0;
-  font-size: medium;
+  margin: 0.5em 0;
+  font-size: 1rem;
 }
 
 .question--choices {
@@ -122,16 +117,16 @@
 }
 
 .game-page--button {
-  width: 8rem;
-  height: 2.5rem;
+  width: 8em;
+  height: 2.5em;
   font-weight: 500;
   font-size: 1rem;
-  color: #F5F7FB;
-  background: #4D5B9E;
-  border-radius: 15px;
+  color: #f5f7fb;
+  background: #4d5b9e;
+  border-radius: 1rem;
   cursor: pointer;
   border: none;
-  margin: 2rem auto;
+  margin: 2rem 1rem;
 }
 
 .game-page--button:focus {
@@ -145,14 +140,17 @@
 
 .game-page--bottom {
   display: flex;
-  width: 80vw;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
 }
 
 .game-page--score {
+  display: inline-block;
   font-style: normal;
   font-weight: 700;
   line-height: 1rem;
   font-size: medium;
   color: #293264;
-  margin: auto 10%;
+  margin: auto 1rem;
 }
